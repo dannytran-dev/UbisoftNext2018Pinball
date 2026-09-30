@@ -1,0 +1,30 @@
+# Visual Studio cache / per-user settings
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+ipch/
+
+# Build output (solution-level and project-level).
+# Anchored so the vendored GameTest/glut/*/x64 libraries stay tracked.
+/[Dd]ebug/
+/[Rr]elease/
+/x64/
+/GameTest/[Dd]ebug/
+/GameTest/[Rr]elease/
+/GameTest/x64/
+
+# Compiler / linker intermediates
+*.obj
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.iobj
+*.ipdb
+*.exp
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
